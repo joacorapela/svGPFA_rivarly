@@ -47,7 +47,6 @@ def main(argv):
         "data_filename": data_filename,
     }
     metadata_filename = results_filename_pattern.format(descriptor, "metadata")
-    breakpoint()
     with open(metadata_filename, "w") as f:
         epoch_config.write(f)
     print(f"Saved {metadata_filename}")
@@ -65,9 +64,6 @@ def main(argv):
     with open(results_filename, "wb") as f:
         pickle.dump(results, f)
     print(f"Saved {results_filename}")
-
-
-    breakpoint()
 
 
 if __name__ == "__main__":
