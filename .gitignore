@@ -1,0 +1,11 @@
+# files
+*~
+*pyc
+
+# directories
+data/*
+!data/.gitkeep
+results/*
+!results/.gitkeep
+figures/*
+!figures/.gitkeep
