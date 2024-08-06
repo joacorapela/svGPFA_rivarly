@@ -1,7 +1,7 @@
 Scripts for the analysis of rivarly dataset with [svGPFA](https://github.com/joacorapela/svGPFA)
 ------------------------------------------------------------------------------------------------
 
-# Installation instructions
+# Provisional installation instructions
 
 ## get code
 01. mkdir svGPFAcode
