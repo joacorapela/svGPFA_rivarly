@@ -45,14 +45,14 @@ request an interactive session in the cluster with one or more gpus and with lar
 
 ## customize optimization parameters
 
-in The current implementation of the code the optimization parameters are hardcoded in
+In the current implementation of the code the optimization parameters are hardcoded in
 `doEstimateSVGPFA.py`. You may want to change `maxiter` or `tol` in the dictionary `optim_params`
 (the maximum number of iteration and the convergence tolerance for the optimization)
 
 ## run `doEstimateSVGPFA.py`
 20. `python doEstimateSVGPFA.py`
 
-the optimization result is a dictionary with keys
+The optimization result is a dictionary with keys
 `params`: svGPFA parameters
 `lower_bound_hist`: list of (increasing) lower bound values achieved at each iteration
 `elapse_time_hist`: list of elapsed times for each iteration
@@ -60,6 +60,6 @@ the optimization result is a dictionary with keys
 
 ## Notes
 
-1. it may be challenging to fit too many trials and neuron in the GPU. I was able to fit all 498 trials and all neurons with mean firing rate larger than 5 Hz in a GPU with 200 Gb of memory.
+1. It may be challenging to fit too many trials and neuron in the GPU. I was able to fit all 498 trials and all neurons with mean firing rate larger than 5 Hz in a GPU with 200 Gb of memory.
 
 2. Please let me know if you have any problem/question.
