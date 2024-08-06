@@ -4,11 +4,11 @@ Scripts for the analysis of rivarly dataset with [svGPFA](https://github.com/joa
 # Provisional installation instructions
 
 ## get code
-01. mkdir svGPFAcode
-02. cd svGPFAcode
-03. git clone git@github.com:joacorapela/svGPFA.git
-04. git clone git@github.com:joacorapela/gcnu_common.git
-05. git clone git@github.com:joacorapela/svGPFA_rivarly.git
+01. `mkdir svGPFAcode`
+02. `cd svGPFAcode`
+03. `git clone git@github.com:joacorapela/svGPFA.git`
+04. `git clone git@github.com:joacorapela/gcnu_common.git`
+05. `git clone git@github.com:joacorapela/svGPFA_rivarly.git`
 
 ## checkout specific branches is the svGPFA and gcnu_common repos
 06. cd svGPFA
