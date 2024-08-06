@@ -1,0 +1,3 @@
+# Script for the analysis of rivarly dataset with [svGPFA](https://github.com/joacorapela/svGPFA)
+
+Under construction ...
